@@ -1,6 +1,6 @@
 # CapasEL — escaparate público
 
-![CapasEL — plugin cosmético para Entertainment LAND](assets/capasel-showcase.jpg)
+![Diagrama conceptual de CapasEL](assets/como-funciona.svg)
 
 **CapasEL** es un sistema de cosméticos para servidores Minecraft Paper que permite a los jugadores equipar capas visuales personalizadas, con animación de movimiento, permisos y recursos gráficos propios.
 
@@ -12,7 +12,7 @@ Este repositorio es un **escaparate informativo**. No contiene el código fuente
 - **Movimiento dinámico:** la capa acompaña al jugador al caminar, saltar o caer.
 - **Control de acceso:** permisos configurables para decidir quién puede utilizar cada diseño.
 - **Integración visual:** modelos y texturas se entregan mediante un resource pack.
-- **Optimización:** el proyecto contempla actualización condicional y reducción de trabajo cuando no hay capas activas.
+- **Optimización:** la versión fuente 1.4.0 documenta actualizaciones condicionales, suspensión de tareas y escucha de movimiento cuando no hay capas activas.
 
 ## Cómo funciona — explicación general
 
@@ -26,14 +26,7 @@ Este repositorio es un **escaparate informativo**. No contiene el código fuente
 
 ## Plantillas de diseño
 
-Las plantillas sirven como guía gráfica para crear texturas. Se incluyen varias resoluciones para trabajar con distintos niveles de detalle.
-
-| Plantilla | Uso |
-|---|---|
-| 32 × 32 | Diseño muy compacto |
-| 64 × 64 | Diseño compacto |
-| 128 × 128 | Más detalle |
-| 256 × 256 | Edición de alta resolución |
+La colección de plantillas de CapasEL incluye resoluciones de 32, 64, 128 y 256 píxeles, además de una guía visual. Las plantillas son recursos para preparar texturas, no un editor gráfico completo.
 
 ![Guía visual de las plantillas](assets/guia_visual.png)
 
@@ -47,22 +40,20 @@ Las plantillas sirven como guía gráfica para crear texturas. Se incluyen varia
 
 La compatibilidad y el rendimiento deben verificarse en el entorno concreto del servidor y del cliente.
 
-## Comandos para jugadores y administración
+## Comandos y administración
 
-La interfaz de comandos contempla selección, consulta y retirada de capas, además de herramientas administrativas para asignar y gestionar cosméticos. Los comandos exactos pueden variar según la configuración instalada.
+La versión 1.4.0 documenta comandos para listar, elegir, quitar y consultar la capa propia, además de acciones administrativas para asignar, retirar y consultar capas de jugadores. También contempla permisos por capa e integración opcional con PlaceholderAPI.
 
 ## Limitaciones conocidas
 
 - La versión documentada está dirigida a clientes Java.
 - La representación descrita no ofrece compatibilidad directa con Bedrock/Geyser.
 - La capa es una pieza visual rígida con movimiento simulado; no es una tela física deformable.
-- Las plantillas son recursos de diseño, no un editor gráfico completo.
+- El servidor no distingue entre primera y tercera persona para esta representación.
 
 ## Privacidad y propiedad del código
 
-Este repositorio muestra el producto y sus recursos gráficos de demostración. **El código fuente de CapasEL se mantiene privado** y no se distribuye desde este escaparate.
-
-Para consultas sobre el proyecto: abre una discusión o contacta al mantenedor del repositorio.
+Este repositorio muestra el producto y explica su tecnología de forma general. **El código fuente de CapasEL se mantiene privado** y no se distribuye desde este escaparate.
 
 ---
 **CapasEL · Entertainment LAND**
