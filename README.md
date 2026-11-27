@@ -26,9 +26,9 @@ Este repositorio es un **escaparate informativo**. No contiene el código fuente
 
 ## Plantillas de diseño
 
-La colección de plantillas de CapasEL incluye resoluciones de 32, 64, 128 y 256 píxeles, además de una guía visual. Las plantillas son recursos para preparar texturas, no un editor gráfico completo.
+La colección incluye resoluciones de 32, 64, 128 y 256 píxeles, además de una guía visual. Las plantillas son recursos para preparar texturas, no un editor gráfico completo.
 
-![Guía visual de las plantillas](assets/guia_visual.png)
+![Vista ilustrativa de las resoluciones](assets/plantillas-preview.svg)
 
 ## Tecnología
 
