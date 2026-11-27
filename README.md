@@ -1,10 +1,20 @@
 # CapasEL — escaparate público
 
-![Diagrama conceptual de CapasEL](assets/como-funciona.svg)
+<p align="center">
+  <img src="assets/capasel-portada.svg" alt="CapasEL — sistema de capas cosméticas de Entertainment LAND" width="100%">
+</p>
 
 **CapasEL** es un sistema de cosméticos para servidores Minecraft Paper que permite a los jugadores equipar capas visuales personalizadas, con animación de movimiento, permisos y recursos gráficos propios.
 
 Este repositorio es un **escaparate informativo**. No contiene el código fuente, las clases Java, los archivos Gradle ni la configuración interna del plugin.
+
+## Compatibilidad con Iris
+
+<blockquote>
+  <strong>Una característica central de CapasEL:</strong> está diseñado para funcionar junto a <strong>Iris</strong>, sin depender de shaders personalizados ni de core shaders propios. La intención es que los jugadores puedan disfrutar de sus capas mientras utilizan Iris y sus shader packs compatibles.
+</blockquote>
+
+La compatibilidad final debe comprobarse con la versión concreta de Iris, el shader pack y el resource pack instalados en el servidor.
 
 ## Qué ofrece
 
@@ -15,6 +25,10 @@ Este repositorio es un **escaparate informativo**. No contiene el código fuente
 - **Optimización:** la versión fuente 1.4.0 documenta actualizaciones condicionales, suspensión de tareas y escucha de movimiento cuando no hay capas activas.
 
 ## Cómo funciona — explicación general
+
+<p align="center">
+  <img src="assets/capasel-flujo-visual.svg" alt="Diagrama conceptual del flujo de CapasEL y su compatibilidad con Iris" width="100%">
+</p>
 
 1. **Diseño:** se prepara una textura PNG a partir de una plantilla.
 2. **Recurso visual:** el diseño se integra en un resource pack con sus modelos.
@@ -37,8 +51,7 @@ La colección incluye resoluciones de 32, 64, 128 y 256 píxeles, además de una
 - Java 21
 - Resource packs con modelos y texturas
 - Integración opcional con PlaceholderAPI
-
-La compatibilidad y el rendimiento deben verificarse en el entorno concreto del servidor y del cliente.
+- Compatibilidad prevista con Iris sin shaders propios ni core shaders
 
 ## Comandos y administración
 
